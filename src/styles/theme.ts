@@ -1,7 +1,6 @@
 const fontWeightRegular = 500;
 const fontWeightBold = 700;
 
-
 const theme = {
   font: {
     family: 'Space Grotesk, sans-serif',
@@ -64,8 +63,8 @@ const theme = {
         letterSpacing: '0rem',
         weight: fontWeightRegular,
       },
-    }
-  }
+    },
+  },
 };
 
 export default theme;
