@@ -1,4 +1,4 @@
-import { createGlobalStyle, css } from 'styled-components'
+import { createGlobalStyle, css } from 'styled-components';
 
 const GlobalStyles = createGlobalStyle`
 
@@ -8,7 +8,7 @@ const GlobalStyles = createGlobalStyle`
     font-style: normal;
     font-weight: 500;
     font-display: swap;
-    src: url('/assets/fonts/static/SpaceGrotesk-Medium.ttf') format('ttf');
+    src: url('/assets/fonts/static/SpaceGrotesk-Medium.ttf') format('truetype');
   }
 
   @font-face {
@@ -17,7 +17,7 @@ const GlobalStyles = createGlobalStyle`
     font-style: normal;
     font-weight: 700;
     font-display: swap;
-    src: url('/assets/fonts/static/SpaceGrotesk-Bold.ttf') format('ttf');
+    src: url('/assets/fonts/static/SpaceGrotesk-Bold.ttf') format('truetype');
   }
 
   * {
@@ -46,5 +46,5 @@ const GlobalStyles = createGlobalStyle`
     }
   `}
   
-`
-export default GlobalStyles
+`;
+export default GlobalStyles;

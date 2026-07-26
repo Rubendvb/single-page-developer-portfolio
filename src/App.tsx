@@ -1,4 +1,4 @@
-import Header from './components/Header'
+import Header from './components/Header';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
       how I could help. Please fill in the form, and I’ll get back to you as
       soon as possible. Name Email Message Send message adamkeyes
     </>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -1,4 +1,4 @@
-import * as S from './styles'
+import * as S from './styles';
 export default function Header() {
   return (
     <S.Container>
@@ -8,5 +8,5 @@ export default function Header() {
         users love. Contact me
       </div>
     </S.Container>
-  )
+  );
 }
