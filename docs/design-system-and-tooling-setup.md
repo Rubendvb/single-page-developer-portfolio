@@ -21,21 +21,19 @@ Se as duas tiverem opinião sobre a mesma coisa (ex: `;`), elas podem conflitar.
 ## 3. Configurar o `eslint.config.js` (flat config)
 
 ```js
-import eslintConfigPrettier from 'eslint-config-prettier'
+import eslintConfigPrettier from 'eslint-config-prettier';
 
-export default tseslint.config(
-  {
-    extends: [
-      js.configs.recommended,
-      ...tseslint.configs.recommended,
-      eslintConfigPrettier, // sempre por último, pra ter a palavra final
-    ],
-    rules: {
-      // regras de estilo (semi, quotes, etc.) NÃO vão aqui —
-      // isso é responsabilidade do .prettierrc
-    },
+export default tseslint.config({
+  extends: [
+    js.configs.recommended,
+    ...tseslint.configs.recommended,
+    eslintConfigPrettier, // sempre por último, pra ter a palavra final
+  ],
+  rules: {
+    // regras de estilo (semi, quotes, etc.) NÃO vão aqui —
+    // isso é responsabilidade do .prettierrc
   },
-)
+});
 ```
 
 **Duas armadilhas comuns:**
