@@ -40,28 +40,28 @@ const theme = {
   variants: {
     heading: {
       xl: {
-        size: '8.8rem',
+        fontSize: '8.8rem',
         lineHeight: '8.8rem',
         letterSpacing: '-0.25rem',
-        weight: fontWeightBold,
+        fontWeight: fontWeightBold,
       },
       l: {
-        size: '4.8rem',
+        fontSize: '4.8rem',
         lineHeight: '5.6rem',
         letterSpacing: '-0.15rem',
-        weight: fontWeightBold,
+        fontWeight: fontWeightBold,
       },
       m: {
-        size: '2.4rem',
+        fontSize: '2.4rem',
         lineHeight: '3.2rem',
         letterSpacing: '0rem',
-        weight: fontWeightBold,
+        fontWeight: fontWeightBold,
       },
       body: {
-        size: '1.8rem',
+        fontSize: '1.8rem',
         lineHeight: '2.8rem',
         letterSpacing: '0rem',
-        weight: fontWeightRegular,
+        fontWeight: fontWeightRegular,
       },
     },
   },
