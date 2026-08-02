@@ -70,7 +70,6 @@ const GlobalStyles = createGlobalStyle`
         min-height: 100vh;
         background-color: ${theme.colors.black};
         color: ${theme.colors.white};
-        padding: 2rem ${theme.spacings.xsmall} 6rem;
       }
     `}
   `}
