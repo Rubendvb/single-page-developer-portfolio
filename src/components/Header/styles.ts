@@ -1,10 +1,7 @@
 import styled, { css } from 'styled-components';
 
 export const Header = styled.header`
-  ${({ theme }) => css`
-    padding: 0 1.6rem;
-  `}
-
+  padding: 0 1.6rem;
   display: flex;
   align-items: center;
   flex-direction: column;
